@@ -4,13 +4,22 @@
   "description": "This is a test directory to learn Git and Node",
   "main": "index.html",
   "scripts": {
-  	"start":"npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
   "author": "Hamza Zaman",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hamzazaman9/Git.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hamzazaman9/Git/issues"
+  },
+  "homepage": "https://github.com/Hamzazaman9/Git#readme"
 }
